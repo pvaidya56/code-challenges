@@ -15,7 +15,6 @@ NAIVE SOLUTION:
 var twoSum = function(nums, target) {
     for (let i = 0; i < nums.length; i++) {
         for (let j = i + 1; j < nums.length; j++) {
-            // console.log(i, j)
             if (nums[j] == target - nums[i]) {
                 return ([nums[i], nums[j]])
             }
@@ -23,6 +22,10 @@ var twoSum = function(nums, target) {
     }
 };
 
+//TESTS: 
 console.log(twoSum([1, 2, 3, 4], 3))
 console.log(twoSum([1, 2, 3, 4], 5))
 console.log(twoSum([1, 2, 3, 4], 7))
+
+//TIME COMPLEXITY : O(n^2) - looping through each element * 2
+//SPACE COMPLEXITY : O(1) - not storing anything so it will remain constant no matter the length of the array
