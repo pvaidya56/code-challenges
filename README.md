@@ -11,3 +11,5 @@ Two Sum - Leetcode
 Reverse Integer - Leetcode
 
 ### Day 2 Challenges (DayTwo.js)
+
+First Duplicate - CodeSignal
