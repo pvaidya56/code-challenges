@@ -13,3 +13,4 @@ Reverse Integer - Leetcode
 ### Day 2 Challenges (DayTwo.js)
 
 First Duplicate - CodeSignal
+First NonRepeating Character - CodeSignal
