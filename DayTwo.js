@@ -23,3 +23,26 @@ function firstDuplicate(a) {
        
 }
 //TIME: 0(N^2)
+
+// // PYTHON SOLUTION // TIME: 0(N)
+// def firstDuplicate(a):
+//      #UNDERSTAND
+//         #Find the first duplicate number in the array, if none return -1
+//         #first occurence of the second number
+//         #the first duplicate where the second occurance comes first
+        
+//     #PLAN
+//   
+//         ##FOR MORE EFFIENCICY, USE ONE POINTER, ONE FOR LOOP THROUGH THE ARRAY AND GET MIN SECOND VALUE INDEX
+//         ##USE STORAGE TO SPEED UP PROCESS
+//         ##HASHSET - ACCESS IS CONSTANT
+        
+//         seen = set()
+        
+//         for i in a:
+//             if i in seen:
+//                 return i;
+//             else:
+//                 seen.add(i);
+        
+//         return -1;
