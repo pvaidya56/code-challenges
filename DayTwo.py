@@ -53,3 +53,9 @@ def firstNotRepeatingCharacter(s):
         if char_counts[char] == 1:
             return char
     return "_"
+
+
+### ROTATE IMAGE (2D ARRAY, ROTATE 90 DEGREES CLOCKWISE) ### 
+def rotateImage(a):
+    ##loop through rows and columns and switch 
+    
