@@ -15,3 +15,7 @@ Reverse Integer - Leetcode
 First Duplicate - CodeSignal
 First NonRepeating Character - CodeSignal
 RotateImage - CodeSignal
+
+### Day 3 Challenges (Day3.py)
+
+Palindrome Number - leetcode
